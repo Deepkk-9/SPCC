@@ -1,0 +1,8 @@
+0 EX1
+1     LDA &A1
+2     STA &A1
+3 MEND
+4 EX2
+5     LDA &A2
+6     INC &A2
+7 MEND
