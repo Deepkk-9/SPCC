@@ -1,0 +1,17 @@
+    MACRO
+    EX1  &A1
+        LDA &A1
+        STA &A1
+    MEND
+    MACRO
+    EX2 &A2
+        LDA &A2
+        INC &A2
+    MEND
+    MOV A,C
+    LDA B
+    INC B
+    EX1 N11
+    EX2 N21
+    EX1 N31
+    END
